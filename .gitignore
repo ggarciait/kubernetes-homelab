@@ -1,0 +1,15 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor files
+*.swp
+.vscode/
+
+# Kubernetes local config / secrets
+*.kubeconfig
+*.pem
+*.key
+
+# Docker logs
+*.log
