@@ -173,7 +173,7 @@ Calico was installed after control-plane initialization to provide Kubernetes po
 kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```
 
-Calico CNI was installed to provide pod networking for the Kubernetes cluster..
+Calico CNI was installed to provide pod networking for the Kubernetes cluster.
 
 ---
 
