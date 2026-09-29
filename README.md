@@ -18,7 +18,7 @@ This project demonstrates real-world cluster provisioning, networking, container
 
 ## 📌 Architecture Diagram
 
-![Kubernetes Homelab Architecture](./images/kubernetes_homelab_architecture.png)
+![Kubernetes Homelab Architecture](./images/kubernetes_homelab_architecture_new.png)
 
 ---
 
