@@ -173,7 +173,7 @@ Calico was installed after control-plane initialization to provide Kubernetes po
 kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```
 
-Calico provided pod networking across the three-node cluster and allowed the nodes to transition into a functional `Ready` state.
+Calico CNI was installed to provide pod networking for the Kubernetes cluster..
 
 ---
 
@@ -252,7 +252,7 @@ The completed environment was validated by confirming:
 - containerd was configured with `SystemdCgroup = true`
 - All 3 Kubernetes nodes reached `Ready` state
 - The control plane and workers were running Kubernetes `v1.29.15`
-- Calico pod networking was operational
+- Calico CNI was installed for Kubernetes pod networking
 - The NGINX Deployment was successfully applied
 - NGINX was configured with 3 replicas
 - The NodePort Service exposed the application on port `30007`
